@@ -1,0 +1,256 @@
+.sz5 { font-size: 14pt ; line-height: 18pt }
+.sz4 { font-size: 12pt ; line-height: 16pt }
+.sz31{ font-size: 10pt ; line-height: 13pt }
+.sz3 { font-size: 10pt ; line-height: 12pt }
+.sz21{ font-size: 9pt ;  line-height: 13pt }
+.sz2 { font-size: 9pt ;  line-height: 11pt }
+.sz1 { font-size: 8.5pt; line-height: 9pt }
+.sz11{ font-size: 8.5pt; line-height: 12pt }
+
+* { 
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	color: #06204A;
+	font-size: 10pt;
+}
+a {
+	color: 0033FF;
+	text-decoration: none;
+}
+p {
+	margin-bottom: 10px;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline;
+}
+div#itemMenu {
+	position: absolute;
+	left: 16px;
+	top: 30px;
+}
+div#contents610{
+	padding: 40px 0px 40px 0px;
+	width: 610px;
+	top: 0px;
+	position: absolute;
+	left: 140px;
+}
+div#contents580{
+	padding: 40px 0px 40px 0px;
+	width: 580px;
+	top: 0px;
+	position: absolute;
+	left: 170px;
+}
+div#contents450{
+	padding: 40px 0px 40px 0px;
+	width: 450px;
+	top: 0px;
+	position: absolute;
+	left: 300px;
+}
+.pageHeader {
+	margin-left: 16px;
+	margin-top: 30px;
+}
+.indent30{
+	padding-left: 30px;
+}
+
+.underconstruction {
+	position: relative;
+	top: 20%;
+	padding-top: 100px;
+}
+
+.underconstructionText {
+	position: relative;
+	top: -18px;
+	left: 14px;
+}
+
+
+div#contents550{
+	padding: 40px 0px 40px 0px;
+	width: 550px;
+	top: 0px;
+	position: absolute;
+	left: 200px;
+}
+div#galleryArea{
+	padding: 20px 0px 0px 20px;
+	width: 750px;
+}
+div#galleryArea img {
+	border: 1px solid #CCCCCC;
+}
+div#magGalleryMenu img {
+	border: 0px;
+}
+div#wallpaperArea{
+	width: 750px;
+}
+
+.wallpaper {
+	border: 1px solid #F75DAD;
+}
+
+.chara{
+	float: left;
+	width: 320px;
+	background-image: url("images/bg04.gif")/*tpa=http://www.geneon-ent.co.jp/rondorobe/anime/hanaukyo/images/bg04.gif*/;
+	background-repeat: no-repeat;
+}
+.charaImg1{
+	text-align: right;
+	margin-right: 20px;
+
+}
+.charaImg2{
+	float: right;
+	text-align: center;
+	width: 220;
+}
+.line{
+	position: relative;
+	top: -8px;
+	left: -1px;
+}
+.line320{
+	margin-bottom: 4px;
+	position: relative;
+	top: -10px;
+	width: 320px;
+}
+.indentText{
+	margin: 0px 0px 0px 32px;
+}
+.charaText{
+	margin: 20px 20px 0px 30px;
+}
+.storyText{
+	margin: 4px 20px 0px 30px;
+}
+
+.line580 {
+	margin-bottom: 20px;
+	position: relative;
+	top: -8px;
+}
+.headline{
+	position: relative;
+	left: 32px;
+	width: auto;
+	color: #F347A2;
+	font-weight: bold;
+}
+.headlineBlue{
+	position: relative;
+	left: 32px;
+	width: auto;
+	color: #3C5AB9;
+	font-weight: bold;
+}
+div#keyart {
+	text-align: right;
+	margin-top: 35px;
+	margin-left: 25px;
+	width: 300px;
+	background-color: #FFFFFF;
+}
+div#contents400{
+	padding: 0px 0px 40px 0px;
+	width: 400px;
+	position: absolute;
+	left: 350px;
+	top: 0px;
+}
+.logoImg {
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+.topCopy1 {
+	margin-top: 25px;
+	margin-bottom: 16px;
+}
+.topCopy2 {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+li {
+	margin-left:24px;
+}
+
+.linkName{
+	font-weight: bold;
+	color: #324D9A;
+}
+.linkText{
+	margin: 60px 0px 0px 0px;
+	width: 260px;
+	float: left;
+}
+.linkAbout{
+	margin: 60px 0px 0px 0px;
+	width: 245px;
+	float: right;
+}
+.linkHeadline{
+	position: relative;
+	left: 32px;
+	width: 200px;
+}
+.magazineName{
+	font-weight: bold;
+	color: #F347A2;
+	margin-bottom: 6px;
+}
+div#playerArea {
+	width: 170px;
+	position: absolute;
+	bottom: 10px;
+	padding: 0px 10px 0px 10px;
+	color: #666666;
+}
+
+.purple {
+	color: #3959bd;
+}
+
+.pink {
+	color: #F75DAD;
+}
+
+.lightpurple {
+	color: #C6CFEC;
+}
+
+.digest {
+	position: relative;
+	margin-left: 32px;
+}
+img.linkbutton {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border: 0px;
+	border-width: 0px;
+
+}
+.galleryNavi{
+	padding: 20px 0px 0px 20px;
+}
+
+div#newslink{
+	width:580px;
+	position: relative;
+	top: -8px;
+	left: -1px;
+}

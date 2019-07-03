@@ -1,0 +1,221 @@
+/* Web Liberty Style Sheets File */
+/* Copyright (C) 2002-2004 Knight, All rights reserved. */
+
+/* ----- 文章構造 -------------------------------------- */
+
+/* 基本設定 */
+* {
+	font-size : x-small ;
+	line-height : 1.3em ;
+}
+
+
+/* ドキュメント */
+.document {
+	text-align : left ;
+	width : 680px ;
+	padding : 20px 10px ;
+}
+
+/* フォント */
+body,th,td,.document {
+	font-family : 'ＭＳ Ｐゴシック', 'MS UI Gothic', Osaka ;
+}
+
+/* マージン */
+p,li,dt,dd,pre {
+	margin-bottom : 40px ;
+}
+
+/* 画像 */
+.upimage {
+	margin-right : 10px ;
+	margin-bottom : 4px ;
+}
+
+/* 水平線 */
+hr {
+	color : #CCCCCC ;
+	height : 1px ;
+}
+
+/* 警告メッセージ */
+.warning {
+	color : #FF0000 ;
+	font-weight : bold ;
+}
+
+/* ----- 基本構造 -------------------------------------- */
+
+/* タイトル */
+.title {
+	text-align : center ;
+}
+
+/* リンク */
+.link {
+	text-align : left ;
+}
+
+/* 投稿フォーム */
+.form {
+	text-align : center ;
+}
+
+/* ページナビゲーター */
+.navi {
+	text-align : center ;
+}
+
+
+/* ----- 見出し文字 ------------------------------------ */
+
+/* メインページ見出し */
+h1 {
+	text-align : center ;
+
+	color : #222222 ;
+	font-size : 25px ;
+	font-family : 'Times New Roman' ;
+}
+
+/* サブページ見出し */
+h2 {
+	text-align : center ;
+
+	color : #222222 ;
+	font-size : 15px ;
+
+	border : #222222 1px solid ;
+
+	width : 100% ;
+	padding : 2px ;
+
+	background-color : #DDDDFF ;
+}
+
+/* 小見出し */
+h3 {
+	color : #222222 ;
+	font-size : 15px ;
+
+	border-left : #7777CC 5px solid ;
+	border-bottom : #DDDDDD 1px solid ;
+
+	width : 100% ;
+	padding : 0px 10px ;
+}
+
+
+/* ----- テーブル -------------------------------------- */
+
+/* 全てのテーブル */
+table,th,td {
+	border-collapse : collapse ;
+}
+
+/* 表 */
+.table {
+	border : #222222 1px solid ;
+	border-collapse : collapse ;
+}
+
+/* 見出し */
+.table_head {
+	border : #AAAAAA 1px solid ;
+	padding : 3px ;
+	background-color : #C6CFEC ;
+}
+
+/* 内容 */
+.table_data {
+	border : #AAAAAA 1px solid ;
+	padding : 3px ;
+	background-color : #FFFFFF ;
+}
+
+/* ----- フォーム -------------------------------------- */
+
+/* テキスト入力 */
+input,select {
+	color : #000000 ;
+	border : #222222 1px solid ;
+
+	line-height : 1.1 ;
+}
+
+/* テキストエリア */
+textarea {
+	color : #000000 ;
+	border : #222222 1px solid ;
+
+	line-height : 1.2 ;
+}
+
+/* ボタン */
+.submit,.reset,.button {
+	line-height : 1.1 ;
+	background-color : #C0D6FB ;
+}
+
+/* チェックボックス */
+.checkbox {
+	border : 0px ;
+}
+
+/* ラジオボタン */
+.radio {
+	border : 0px ;
+}
+
+/* ----- 投稿フォーム ---------------------------------- */
+
+/* 投稿フォーム格納テーブル */
+.form_table {
+}
+
+/* 見出し */
+.form_table_head {
+	font-weight : bold ;
+	padding : 0px 5px ;
+	border : #FFFFFF 2px solid ;
+	background-color : #C6CFEC ;
+}
+
+/* 内容 */
+.form_table_data {
+}
+
+/* ----- 投稿記事 -------------------------------------- */
+
+/* 投稿記事格納テーブル */
+.log_table {
+	margin : 0px ;
+	padding : 0px ;
+	border-collapse : collapse ;
+	border : #91A3DB 1px solid ;
+
+	width : 580px ;
+}
+
+/* 見出し */
+.log_table_head {
+	margin : 0px ;
+	padding : 3px ;
+	background-color : #C6CFEC ;
+}
+
+/* 内容 */
+.log_table_data {
+	margin : 0px ;
+	padding : 3px ;
+
+	background-color : #FFFFFF ;
+}
+
+/* 本文インデント */
+.log_table_indent {
+	width : 30px ;
+}
+
+/* ----------------------------------------------------- */
